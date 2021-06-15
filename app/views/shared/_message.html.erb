@@ -1,0 +1,8 @@
+<% flash.each do |key, value| %>
+<div class="ui <%= key %> message transition">
+  <i class="close icon"></i>
+  <div class="header">
+    	<%= value %>
+  </div>
+</div>
+<% end %>
